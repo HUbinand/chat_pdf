@@ -1,17 +1,3 @@
-#API秘钥：sk-f93b1dfaf71041c9a23e5c24d1d01247
-#API请求URL:https://dashscope.aliyuncs.com/compatible-mode/v1
-#API调用模型：qwen-turbo qwen-long qwen-plus
-
-# windows下设置环境变量保存API秘钥
-#会话范围：使用 $env:DEEPSEEK_API_KEY = "<your-api-key-here>" 
-#设置的环境变量只在当前 PowerShell 会话中有效。一旦关闭 PowerShell 窗口，变量将消失。
-# $env:Qwen_Long_API_KEY = "sk-f93b1dfaf71041c9a23e5c24d1d01247"
-# $env:Qwen_Long_API_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-# 查看windows下设置的所有环境变量
-# Get-ChildItem Env: 
-# windows下查看是否配置成功
-# echo $env:Qwen_Long_API_KEY
-# echo $env:Qwen_Long_API_URL
 
 #本地记忆原理：
 # 历史记录：每次用户发送消息时，程序都会将这条消息添加到 conversation_history 列表中。
